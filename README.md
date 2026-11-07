@@ -42,3 +42,12 @@ npx vite --help
 
 contoh di file :
 - [index.html](index.html)
+
+# JavaScript
+## JavaScript
+- Secara default, Vite mendukung JavaScript Module, sehingga kita bisa membuat kode JavaScript dengan menggunakan JavaScript Module
+
+
+contoh di file :
+- [scripts/say-hello.mjs](scripts/say-hello.mjs)
+- [index.html](index.html)
