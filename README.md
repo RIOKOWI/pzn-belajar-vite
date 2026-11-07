@@ -15,3 +15,13 @@
 - Vite saat ini menjadi rekomendasi sebagai Development Tool untuk membuat aplikasi VueJS
 
 
+# Membuat Project
+## Membuat Project
+- Buat folder belajar-vite
+- npm init
+- Ubah type di package.json menjadi module
+
+## Menginstall Vite Dependency
+- npm install --save-dev vite
+
+
