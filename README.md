@@ -51,3 +51,22 @@ contoh di file :
 contoh di file :
 - [scripts/say-hello.mjs](scripts/say-hello.mjs)
 - [index.html](index.html)
+
+# TypeScript
+## TypeScript
+- Vite juga mendukung kompilasi kode TypeScript secara realtime, sehingga kita bisa membuat menggunakan kode TypeScript, dan tidak perlu khawatir dengan Web Browser
+- Karena Vite akan melakukan proses kompilasi kode TypeScript secara otomatis
+
+## Command : Menambah TypeScript
+```bash
+npm install --save-dev typescript
+```
+
+## Command : Setup TypeScript
+```bash
+npx tsc --init
+```
+
+
+contoh di file :
+- [scripts/say-hello.mjs](scripts/say-hello.mjs)
