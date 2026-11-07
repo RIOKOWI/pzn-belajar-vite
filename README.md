@@ -22,6 +22,23 @@
 - Ubah type di package.json menjadi module
 
 ## Menginstall Vite Dependency
-- npm install --save-dev vite
+```bash
+npm install --save-dev vite
+```
 
 
+# Menjalankan Aplikasi
+## Menjalankan Aplikasi
+- Vite bisa kita gunakan menjalankan aplikasi Web
+- Vite menggunakan file index.html sebagai entry point dari aplikasi web yang kita buat
+- Untuk menjalankan vite, kita bisa gunakan perintah :
+```bash
+npx vite
+```
+- Terdapat banyak opsi yang bisa kita lihat ketika menjalankan Vite, kita bisa gunakan perintah :
+```bash
+npx vite --help
+```
+
+contoh di file :
+- [index.html](index.html)
