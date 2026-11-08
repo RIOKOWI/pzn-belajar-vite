@@ -208,3 +208,15 @@ contoh di file :
 - Vite juga memiliki banyak sekali Plugins tambahan untuk mendukung nya
 - Kita bisa melihat daftar plugin yang didukung oleh Vite dihalaman ini
 - `https://vitejs.dev/plugins/`
+
+# Template
+## Template
+- Diawal, kita membuat project Vite secara manual. Hal ini saya bahas agar kita tahu bagaimana cara membuat project Vite
+- Namun sebenarnya, Vite memiliki template yang bisa kita gunakan untuk membuat project
+- Untuk membuat project baru menggunakan template yang sudah disediakan Vite, kita bisa gunakan perintah : 
+```bash
+npm create vite@latest
+```
+
+contoh di folder :
+- [template/template](template/template)
