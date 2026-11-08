@@ -148,3 +148,21 @@ contoh di folder :
 contoh di folder :
 - [index.html](index.html)
 - [assets/person.json](assets/person.json)
+
+
+# Static Assets
+## Static Assets
+- Selain file JavaScript, TypeScript, CSS, JSON, kadang kita juga menggunakan Static Assets ketika membuat Web, seperti Image, Video, File Text, dan lain-lain
+- Vite juga secara otomatis akan melakukan bundle ketika di Web kita menggunakan file Static Assets
+- Selain itu, kita juga bisa melakukan import untuk Static Assets di JavaScript sebagai Text, pada kasus berupa Text File
+
+## Public Directory
+- Kadang, kita juga butuh Static Assets yang ditampilkan secara dinamis, sehingga kemungkinan lokasinya tidak terdapat di halaman Web HTML
+- Atau Static Assets yang nama file nya tidak boleh berubah, misal favicon.ico atau robbot.txt, dan lain-lain
+- Vite mendukung public directory, dimana kita bisa menyimpan semua Static Assets yang tidak akan di optimize pada folder tersebut
+
+
+contoh di folder :
+- [index.html](index.html)
+- [assets/img/nasi-goreng.jpg](assets/img/nasi goreng.jpg)
+- [assets/ola.txt](assets/ola.txt)
