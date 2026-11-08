@@ -26,6 +26,9 @@
 npm install --save-dev vite
 ```
 
+contoh di file/folder : 
+- [package.json](package.json)
+- [node_modules](node_modules)
 
 # Menjalankan Aplikasi
 ## Menjalankan Aplikasi
@@ -67,6 +70,28 @@ npm install --save-dev typescript
 npx tsc --init
 ```
 
-
 contoh di file :
-- [scripts/say-hello.mjs](scripts/say-hello.mjs)
+- [index.html](index.html)
+- [tsconfig.json](tsconfig.json)
+- [scripts/say-bye.ts](scripts/say-bye.ts)
+
+
+# Build
+## Build
+- Ketika aplikasi kita sudah selesai, dan siap untuk di deploy ke production, maka kita bisa melakukan build menggunakan Vite
+- Vite akan melakukan Dependency Pre-Bundling, dimana Vite akan menggabungkan banyak module yang kita gunakan menjadi satu, hal ini akan mempercepat performa load halaman web kita
+- Selain itu, Vite bisa mendeteksi module-module yang kita gunakan, dan hanya melakukan build pada module-module yang kita gunakan saja, sehingga ukuran file build akan lebih optimal karena berisikan kode yang dibutuhkan saja
+
+## Perintah Build
+- Untuk melakukan build, kita bisa gunakan perintah :
+```bash
+npx vite build
+```
+- Untuk melihat opsi apa saja yang bisa kita ubah, kita bisa gunakan perintah :
+```bash
+npx vite build --help
+```
+- Secara default, hasil build akan disimpan di folder dist
+
+contoh di folder :
+- [dist](dist)
