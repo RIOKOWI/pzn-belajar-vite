@@ -167,3 +167,14 @@ contoh di file :
 - [assets/img/nasi-goreng.jpg](assets/img/nasi goreng.jpg)
 - [assets/ola.txt](assets/ola.txt)
 - [public](public)
+
+# Preview
+## Preview
+- Setelah kita melakukan build menggunakan Vite, semua file distribution terdapat di folder dist
+- Kadang kita ingin melihat hasilnya terlebih dahulu, sebelum melakukan deployment ke server production
+- Kita bisa menggunakan perintah :
+```bash
+# jangan di lakuin di server production
+npx vite preview
+```
+- Ingat ini hanya untuk preview di proses development, jangan lakukan hal ini di server production
