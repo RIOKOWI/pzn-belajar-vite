@@ -107,7 +107,7 @@ contoh di folder :
 npm install uuid
 ```
 
-contoh di folder :
+contoh di file :
 - [index.html](index.html)
 - [package.json](package.json)
 - [package-lock.json](package-lock.json)
@@ -119,7 +119,7 @@ contoh di folder :
 - Vite juga mendukung CSS @import
 
 
-contoh di folder :
+contoh di file :
 - [index.html](index.html)
 - [assets/styles/style.css](assets/styles/style.css)
 
@@ -135,7 +135,7 @@ contoh di folder :
 npm install --save-dev sass
 ```
 
-contoh di folder :
+contoh di file :
 - [index.html](index.html)
 - [assets/styles/sample.sass](assets/styles/sample.sass)
 - [package.json](package.json)
@@ -145,7 +145,7 @@ contoh di folder :
 ## JSON
 - Vite juga mendukung bundle file JSON, sehingga kita bisa dengan mudah menyimpan data dalam bentuk JSON, dan mengambil datanya dari JavaScript dengan cara menggunakan JavaScript Module
 
-contoh di folder :
+contoh di file :
 - [index.html](index.html)
 - [assets/person.json](assets/person.json)
 
@@ -162,7 +162,8 @@ contoh di folder :
 - Vite mendukung public directory, dimana kita bisa menyimpan semua Static Assets yang tidak akan di optimize pada folder tersebut
 
 
-contoh di folder :
+contoh di file :
 - [index.html](index.html)
 - [assets/img/nasi-goreng.jpg](assets/img/nasi goreng.jpg)
 - [assets/ola.txt](assets/ola.txt)
+- [public](public)
