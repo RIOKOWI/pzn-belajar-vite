@@ -135,9 +135,16 @@ contoh di folder :
 npm install --save-dev sass
 ```
 
-
 contoh di folder :
 - [index.html](index.html)
 - [assets/styles/sample.sass](assets/styles/sample.sass)
 - [package.json](package.json)
 - [package-lock.json](package-lock.json)
+
+# JSON
+## JSON
+- Vite juga mendukung bundle file JSON, sehingga kita bisa dengan mudah menyimpan data dalam bentuk JSON, dan mengambil datanya dari JavaScript dengan cara menggunakan JavaScript Module
+
+contoh di folder :
+- [index.html](index.html)
+- [assets/person.json](assets/person.json)
