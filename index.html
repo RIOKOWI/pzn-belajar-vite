@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* import css */
+        @import url("./assets/styles/style.css"); 
+        /* import styling pre processor sass after installing */
+        @import url("./assets/styles/sample.sass"); 
+    </style>
+</head>
+<body>
+    <h1> 
+        VITE ANCOK
+    </h1>
+    <!-- styling sass -->
+    <h2>
+        SASS PRE PROCESSOR
+    </h2>
+    <!-- import image -->
+    <img src="./assets/img/nasi-goreng.jpg" style="height: 100px; width: 100px;" alt="nasgor goreng">
+    <script type="module">
+        import {sayHello} from './scripts/say-hello.mjs'; // import function
+        import {sayGoodbye} from './scripts/say-bye.ts'; // import function
+        import {v4} from 'uuid'; // call node dependency after installing
+        import * as person from "./assets/person.json" // import all attribute sebagai person from that file
+        import textFile from "./assets/ola.txt?raw" // ?raw = import isi content txt file
+
+        console.info("Hello Vite")
+        console.info(sayHello("Rio")) // call function js
+        console.info(sayGoodbye("Garou")) // call function ts
+        console.info(v4()) // call the func from import dependency
+
+        // call all json
+        console.info(person.name)
+        console.info(person.github)
+        console.info(person.instagram)
+
+        console.info(textFile) // see inside txt file
+    </script>
+</body>
+</html>

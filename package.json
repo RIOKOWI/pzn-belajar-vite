@@ -1,0 +1,28 @@
+{
+  "name": "pzn-belajar-vite",
+  "version": "1.0.0",
+  "description": "belajar vite",
+  "homepage": "https://github.com/RIOKOWI/pzn-belajar-vite#readme",
+  "bugs": {
+    "url": "https://github.com/RIOKOWI/pzn-belajar-vite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIOKOWI/pzn-belajar-vite.git"
+  },
+  "license": "ISC",
+  "author": "Rio Achyar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.108.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "uuid": "^14.0.3"
+  }
+}
