@@ -178,3 +178,14 @@ contoh di file :
 npx vite preview
 ```
 - Ingat ini hanya untuk preview di proses development, jangan lakukan hal ini di server production
+
+# Configuration
+## Configuration
+- Secara default, Vite sudah memiliki default configuration, sehingga kita tidak perlu melakukan pengaturan apapun
+- Namun, jika kita ingin melakukan pengaturan, Vite juga mendukungnya dengan membuat file vite.config.js
+- Semua konfigurasi yang bisa kita lakukan di Vite, bisa kita baca disini
+- `https://vitejs.dev/config/`
+
+contoh di file :
+- [vite.config.js](vite.config.js)
+- [production](production)
