@@ -189,3 +189,14 @@ npx vite preview
 contoh di file :
 - [vite.config.js](vite.config.js)
 - [production](production)
+
+# Multi-Page Application
+## Multi-Page Application
+- Saat kita membuat halaman web, kadang kita membuat halaman web lebih dari satu halaman HTML
+- Vite juga mendukung proses build untuk lebih dari satu halaman HTML
+- Namun, khusus untuk Multi-Page Application, kita harus daftarkan file-file mana saja yang akan di build pada Vite Configuration
+
+contoh di file :
+- [vite.config.js](vite.config.js)
+- [blog.html](blog.html)
+- [blade/contact.html](blade/contact.html)

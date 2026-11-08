@@ -1,0 +1,1 @@
+import{t as e}from"./say-hello-D97yA3-l.js";console.info(e(`Contact`));
