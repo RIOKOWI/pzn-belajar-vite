@@ -111,3 +111,14 @@ contoh di folder :
 - [index.html](index.html)
 - [package.json](package.json)
 - [package-lock.json](package-lock.json)
+
+
+# CSS
+## CSS
+- Kode CSS yang terdapat di halaman HTML, secara otomatis juga akan di bundle oleh Vite, dengan begitu kode CSS nya akan menjadi lebih optimal
+- Vite juga mendukung CSS @import
+
+
+contoh di folder :
+- [index.html](index.html)
+- [assets/styles/style.css](assets/styles/style.css)
