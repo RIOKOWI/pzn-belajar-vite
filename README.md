@@ -95,3 +95,19 @@ npx vite build --help
 
 contoh di folder :
 - [dist](dist)
+
+# Node Dependency
+## Node Dependency
+- Vite juga bisa secara otomatis melakukan build dari dependency yang kita install menggunakan NodeJS Packages
+- Namun perlu diperhatikan, tidak semua NodeJS Package itu compatible dengan Web Browser, jadi kita harus memastikan NodeJS Package yang kita gunakan itu bisa dijalankan di Web Browser
+- Contoh jika kita memasukkan dependency ExpressJS, ini mungkin tidak bisa berjalan di Web Browser, karena membutuhkan NodeJS HTTP Server, sedangkan di Web Browser, hal itu tidak ada
+
+## Command : Menambah Dependency UUID
+```bash
+npm install uuid
+```
+
+contoh di folder :
+- [index.html](index.html)
+- [package.json](package.json)
+- [package-lock.json](package-lock.json)

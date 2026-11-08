@@ -10,12 +10,14 @@
         VITE ANCOK
     </h1>
     <script type="module">
-        import {sayHello} from './scripts/say-hello.mjs' // import function
-        import {sayGoodbye} from './scripts/say-bye.ts' // import function
+        import {sayHello} from './scripts/say-hello.mjs'; // import function
+        import {sayGoodbye} from './scripts/say-bye.ts'; // import function
+        import {v4} from 'uuid'; // call node dependency after installing
 
         console.info("Hello Vite")
         console.info(sayHello("Rio")) // call function js
         console.info(sayGoodbye("Garou")) // call function ts
+        console.info(v4()) // call the func from import dependency
     </script>
 </body>
 </html>
