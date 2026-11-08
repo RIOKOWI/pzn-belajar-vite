@@ -122,3 +122,22 @@ contoh di folder :
 contoh di folder :
 - [index.html](index.html)
 - [assets/styles/style.css](assets/styles/style.css)
+
+
+# CSS Pre-processors
+## CSS Pre-processors
+- Saat ini, banyak sekali CSS Pre-processor framework yang digunakan untuk mempermudah pembuatan kode CSS
+- Contohnya SASS, LESS, dan STYLUS
+- Vite juga mendukung CSS Pre-processors, sehingga kita tidak perlu melakukan kompilasi secara manual agar menjadi kode CSS yang dimengerti oleh Web Browser
+
+## Command : Menginstall Sass
+```bash
+npm install --save-dev sass
+```
+
+
+contoh di folder :
+- [index.html](index.html)
+- [assets/styles/sample.sass](assets/styles/sample.sass)
+- [package.json](package.json)
+- [package-lock.json](package-lock.json)
