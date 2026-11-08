@@ -200,3 +200,11 @@ contoh di file :
 - [vite.config.js](vite.config.js)
 - [blog.html](blog.html)
 - [blade/contact.html](blade/contact.html)
+
+# Plugins
+## Plugins
+- Saat kita membuat web yang hanya membutuhkan HTML, CSS dan JavaScript, Vite sudah sangat baik mendukung pekerjaan kita
+- Namun, kadang kita menggunakan framework tambahan seperti VueJS, ReactJS, Svelte, dan lain-lain
+- Vite juga memiliki banyak sekali Plugins tambahan untuk mendukung nya
+- Kita bisa melihat daftar plugin yang didukung oleh Vite dihalaman ini
+- `https://vitejs.dev/plugins/`
